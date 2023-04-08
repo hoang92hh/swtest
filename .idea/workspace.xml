@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e62679a8-2db5-4f6c-9613-4cf4f2992407" name="Default Changelist" comment="" />
+    <list default="true" id="e62679a8-2db5-4f6c-9613-4cf4f2992407" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pairs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pairs2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pairs/Pair2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swtest/pairs/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/swtest/pairs/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pairs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pairs/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2NTtMURxOPfQEErjuP6WiXgRfdK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,10 +35,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoSoap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../inteliji/soap" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="swtest" />
@@ -56,8 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +108,10 @@
       <workItem from="1679745567873" duration="8419000" />
       <workItem from="1679798907259" duration="1439000" />
       <workItem from="1679924976630" duration="889000" />
-      <workItem from="1680334517905" duration="244000" />
+      <workItem from="1680334517905" duration="1546000" />
+      <workItem from="1680784912733" duration="626000" />
+      <workItem from="1680869895875" duration="722000" />
+      <workItem from="1680919093201" duration="9443000" />
     </task>
     <servers />
   </component>
@@ -106,54 +123,55 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1679731372221" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1680334759194">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1680336122901">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1680334759194" />
-    <state width="1877" height="379" key="GridCell.Tab.0.bottom" timestamp="1679757825784">
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1680336122901" />
+    <state width="1860" height="375" key="GridCell.Tab.0.bottom" timestamp="1680940721039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679757825784" />
-    <state width="1877" height="379" key="GridCell.Tab.0.center" timestamp="1679757825784">
+    <state width="1860" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680940721039" />
+    <state width="1860" height="375" key="GridCell.Tab.0.center" timestamp="1680940721039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679757825784" />
-    <state width="1877" height="379" key="GridCell.Tab.0.left" timestamp="1679757825784">
+    <state width="1860" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680940721039" />
+    <state width="1860" height="375" key="GridCell.Tab.0.left" timestamp="1680940721039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679757825784" />
-    <state width="1877" height="379" key="GridCell.Tab.0.right" timestamp="1679757825784">
+    <state width="1860" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680940721039" />
+    <state width="1860" height="375" key="GridCell.Tab.0.right" timestamp="1680940721039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679757825784" />
-    <state width="1877" height="379" key="GridCell.Tab.1.bottom" timestamp="1679757825799">
+    <state width="1860" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680940721039" />
+    <state width="1860" height="375" key="GridCell.Tab.1.bottom" timestamp="1680940721039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679757825799" />
-    <state width="1877" height="379" key="GridCell.Tab.1.center" timestamp="1679757825784">
+    <state width="1860" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680940721039" />
+    <state width="1860" height="375" key="GridCell.Tab.1.center" timestamp="1680940721039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679757825784" />
-    <state width="1877" height="379" key="GridCell.Tab.1.left" timestamp="1679757825784">
+    <state width="1860" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680940721039" />
+    <state width="1860" height="375" key="GridCell.Tab.1.left" timestamp="1680940721039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679757825784" />
-    <state width="1877" height="379" key="GridCell.Tab.1.right" timestamp="1679757825784">
+    <state width="1860" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680940721039" />
+    <state width="1860" height="375" key="GridCell.Tab.1.right" timestamp="1680940721039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679757825784" />
+    <state width="1860" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680940721039" />
     <state x="775" y="454" key="ReplaceDuplicatesPrompt" timestamp="1679751377189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="454" key="ReplaceDuplicatesPrompt/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679751377189" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1679703485444">
+    <state x="463" y="165" key="SettingsEditor" timestamp="1680936929681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680936929681" />
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1679703485444" />
-    <state x="2588" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1680334523890">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1680919092577">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679924977470" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680919092577" />
     <state x="2588" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1680334523890" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1679748074720" />
     <state x="690" y="275" width="540" height="496" key="extract.method.dialog" timestamp="1679751357473">
@@ -172,6 +190,11 @@
           <url>file://$PROJECT_DIR$/src/sort/QuickSort.java</url>
           <line>43</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pairs/Solution.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

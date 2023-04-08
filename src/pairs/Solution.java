@@ -1,131 +1,125 @@
 package pairs;
 
+
+import sun.awt.EventQueueItem;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import java.time.LocalTime;
 import java.util.*;
 
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println("the start");
-        int[][] arr = {
-                {1, 2, 3, 4},
-                {3, 2, 1, 4},
-                {4, 1, 2, 3},
-                {1, 4, 2, 3},
-        };
-        int[] listPerson = {1, 2, 3, 4};
-        finDFS(arr, listPerson);
+    private static int TC;
+    private static int R;
 
-    }
-
-    private static void finDFS(int[][] arr, int[] listPerson) {
-
-        for (int e:listPerson
-             ) {
-        handleDFS(arr, listPerson, e);
-        }
+    private static int[][] arr;
+    private static int[] list;
+    private static int minPoint;
+    private static int minOfMaxPoint;
+    private static int sumOfCase;
 
 
-    }
-
-    private static void handleDFS(int[][] arr, int[] listPerson, Integer element) {
-        Stack<Integer> stack = new Stack<>();
-        Stack<Integer> minStack = new Stack<>();
-        Stack<int[]> minVisitedStack = new Stack<>();
-        Stack<int[]> neighBorStack = new Stack<>();
-
-        //khoi tao gia tri dau tien de duyet
-        stack.push(element);
-        minStack.push(0);
-        //khoi tao gia tri neighbor cua phan tu dau tien
-        int[] firstNeighbor = deleteElement(listPerson, element);
-        neighBorStack.push(firstNeighbor);
-
-        //khoi tao gia tri dau tien cho Case
-
-        int minOfCase = 0;
-        int length = listPerson.length;
-        int[] minVisited = new int[0];
 
 
-        //bat dau duyet cac phan tu trong stack
-        while (!stack.isEmpty()) {
 
-            Integer personNumber = stack.pop();
-            minOfCase = minStack.pop();
-            int[] neighborArr = neighBorStack.pop();
-            if(!minVisitedStack.isEmpty()){
-                minVisited = minVisitedStack.pop();
-            }
+    public static void main(String[] args) throws FileNotFoundException {
+        System.out.println("---time start --- "+ LocalTime.now());
+        Scanner sc =  new Scanner(new FileInputStream("pairs2.txt"));
+//        Scanner sc =  new Scanner(new FileInputStream("pairs.txt"));
+//        Scanner sc = new Scanner(System.in);
+         TC = sc.nextInt();
 
+        for (int tc = 1; tc <= TC; tc++) {
+            R = sc.nextInt();
 
-            //tim person 2 phu hop  nhat , kem theo so diem.
-            int minValue = 1;
-            while (minValue <= length) {
-                Integer person2 = arr[personNumber - 1][minValue - 1];
-                if (!isExitsElement(minVisited, person2)) {
-                    minVisited = addElement(minVisited,person2);
-                    minOfCase = minOfCase + minValue;
-                    System.out.println("PerSon A" + personNumber + " ghep doi voi PerSon B" + person2 + " co diem uu tien la " + minOfCase );
-                    if(minVisited.length==length){
-                        System.out.println("-----------------Thu thap du nguoi =--------------");
-                    }
-                    break;
-                } else {
-                    minValue ++;
+            arr = new int[R][R];
+            for (int j = 0; j < R; j++) {
+                sc.nextLine();
+                for (int k = 0; k < R; k++) {
+                    arr[j][k] = sc.nextInt();
+//                    System.out.println(arr[j][k]);
                 }
 
             }
 
-            //tim next Neibor cho danh sach neighbor  va cac  param lan duyet tiep theo
-            for (int ele:neighborArr
-                 ) {
-                stack.push(ele);
-                minStack.push(minOfCase);
-                minVisitedStack.push(minVisited);
-                int[] neighBorOfNeighbor = deleteElement(neighborArr, ele);
-                neighBorStack.push(neighBorOfNeighbor);
+            list = new int[R];
+            for (int j = 0; j < R; j++) {
+                list[j] = j + 1;
             }
 
+            getMinPoint();
+            getMaxPoint();
+            System.out.println("#" + tc +" "+minPoint + " " + (R*sumOfCase-minOfMaxPoint) );
+
+
 
         }
+        System.out.println("---time end --- "+ LocalTime.now());
+
 
     }
 
-    private static int[] addElement(int[] arr, Integer newElement) {
-        int newLength = arr.length +1;
-        int[] newArr = new int[newLength];
-        for (int i = 0; i < arr.length ; i++) {
-            newArr[i] = arr[i];
-
-        }
-        newArr[newLength-1] = newElement;
-        return newArr;
-
+    private static void getMaxPoint() {
+        minOfMaxPoint = 0;
+        sumOfCase = R*(R+1)/2;
+        handleMaxDFS(new int[R], 0, 0);
     }
 
-    private static boolean isExitsElement(int[] minVisited, Integer person2) {
-        for (int i = 0; i < minVisited.length; i++) {
-            if(minVisited[i]==person2){
-                return true;
+    private static void handleMaxDFS(int[] visited, int minOfMaxCase, int row) {
+        if(minOfMaxCase>=minOfMaxPoint && minOfMaxPoint !=0){
+            return;
+        }
+        //condition to set MinPoint again
+        if(row==R){
+            if(minOfMaxCase<minOfMaxPoint || minOfMaxPoint==0){
+                minOfMaxPoint = minOfMaxCase;
+            }
+            return;
+        }
+        for (int i = R-1; i >=0 ; i--) {
+            int personB = arr[row][i];
+            if(visited[personB-1]==0){
+                visited[personB-1]=1;
+                handleMaxDFS(visited, minOfMaxCase + (sumOfCase-i-1),  row+1);
+                visited[personB-1]=0;
             }
         }
-        return false;
     }
 
-    private static int[] deleteElement(int[] arr, Integer element) {
-        int newLength = arr.length -1;
-        int[] newArr = new int[newLength];
-        boolean next = false;
-        for (int i = 0; i < newLength; i++) {
-            if(arr[i]==element){
-                next =true;
-                newArr[i] = arr[i]+1;
-            }else if(next){
-                newArr[i] = arr[i]+1;
-            }else{
-                newArr[i] = arr[i];
-            }
+    private static void getMinPoint() {
+        minPoint = 0;
+        handleMinDFS(new int[R], 0, 0);
+
+
+    }
+
+    private static void handleMinDFS(int[] visited, int minOfCase, int row) {
+        //condition to backtrack
+        if(minOfCase>=minPoint && minPoint !=0){
+            return;
         }
-        return newArr;
+        //condition to set MinPoint again
+        if(row==R){
+            if(minOfCase<minPoint || minPoint==0){
+                minPoint = minOfCase;
+            }
+            return;
+        }
+        for (int i = 0; i <R ; i++) {
+            int personB = arr[row][i];
+            if(visited[personB-1]==0){
+                visited[personB-1]=1;
+                handleMinDFS(visited, minOfCase+ i+1,  row+1);
+                visited[personB-1]=0;
+            }
+
+        }
 
     }
+
+
+
+
+
 }
