@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e62679a8-2db5-4f6c-9613-4cf4f2992407" name="Default Changelist" comment="first commit in pair_stackLibrary">
-      <change afterPath="$PROJECT_DIR$/src/file.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pairs/Pair1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pairs/Pair2.java" beforeDir="false" />
+    <list default="true" id="e62679a8-2db5-4f6c-9613-4cf4f2992407" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,16 +124,33 @@
       <workItem from="1680964566077" duration="729000" />
       <workItem from="1680996823830" duration="4454000" />
     </task>
+    <task id="LOCAL-00001" summary="delete file thua in pairs branch">
+      <created>1681032346125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681032346125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete file thua in pairs branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete file thua in pairs branch" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Notifications" timestamp="1679731372221">
+    <state x="552" y="178" key="#Notifications" timestamp="1681032528088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681032528088" />
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1679731372221" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1681032340089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681032340089" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1680336122901">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -189,6 +204,10 @@
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1680936929681" />
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1679703485444" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1681032543054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681032543054" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1680996902799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
