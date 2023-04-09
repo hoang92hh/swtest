@@ -26,9 +26,8 @@ public class Solution {
 
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("---time start --- "+ LocalTime.now());
-//        Scanner sc =  new Scanner(new FileInputStream("pairs2.txt"));
-        Scanner sc =  new Scanner(new FileInputStream("pairs.txt"));
-//        Scanner sc = new Scanner(System.in);
+        Scanner sc =  new Scanner(new FileInputStream("pairs2.txt"));
+//        Scanner sc =  new Scanner(new FileInputStream("pairs.txt"));
         TC = sc.nextInt();
 
         for (int tc = 1; tc <= TC; tc++) {
@@ -51,9 +50,9 @@ public class Solution {
 
             }
 
-            list = "";
+            list = new int[R];
             for (int j = 0; j < R; j++) {
-                list +=(j+1);
+                list[j] =(j+1);
             }
 
             getMinPoint();
@@ -74,7 +73,7 @@ public class Solution {
         handleMaxDFS(list, 0, 0);
     }
 
-    private static void handleMaxDFS(String personlist, int minOfMaxCase, int row) {
+    private static void handleMaxDFS(int[] personlist, int minOfMaxCase, int row) {
         if(minOfMaxCase>=minOfMaxPoint && minOfMaxPoint !=0){
             return;
         }
@@ -85,10 +84,10 @@ public class Solution {
             }
             return;
         }
-        for (int i = 0; i <personlist.length(); i++) {
-            int personB = personlist.charAt(i);
-            int pointB = getPointOfPerson(arr,row,personB);
-            String newString = personlist.replace(String.valueOf(personB), "");
+        for (int i = 0; i <personlist.length; i++) {
+            int personB = personlist[i];
+            int pointB = arrExtend[row][personB-1];
+            int[] newString = deletePerson(personlist, personB);
             handleMaxDFS(newString, minOfMaxCase + (sumOfCase-pointB),  row+1);
 
         }
@@ -127,7 +126,7 @@ public class Solution {
 
     }
 
-    private static void handleMinDFS(String personList, int minOfCase, int row) {
+    private static void handleMinDFS(int[] personList, int minOfCase, int row) {
         //condition to backtrack
         if(minOfCase>=minPoint && minPoint !=0){
             return;
@@ -139,10 +138,10 @@ public class Solution {
             }
             return;
         }
-        for (int i = 0; i <personList.length(); i++) {
-            int personB = personList.charAt(i);
-            int pointB = getPointOfPerson(arr,row,personB);
-            String  newString = personList.replace(String.valueOf(personB), "");
+        for (int i = 0; i <personList.length; i++) {
+            int personB = personList[i];
+            int pointB = arrExtend[row][personB-1];
+            int[] newString =deletePerson(personList, personB);
             handleMinDFS(newString,  minOfCase  + pointB,  row+1);
         }
 
