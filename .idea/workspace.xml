@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e62679a8-2db5-4f6c-9613-4cf4f2992407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pairs/Pair1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e62679a8-2db5-4f6c-9613-4cf4f2992407" name="Default Changelist" comment="first commit in pair_stackLibrary">
+      <change afterPath="$PROJECT_DIR$/src/file.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pairs/Pair1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pairs/Pair2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,16 +220,6 @@
           <url>file://$PROJECT_DIR$/src/pairs/Solution.java</url>
           <line>83</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pairs/Pair1.java</url>
-          <line>134</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pairs/Pair1.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
