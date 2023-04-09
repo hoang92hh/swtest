@@ -14,7 +14,8 @@ public class Solution {
     private static int R;
 
     private static int[][] arr;
-    private static String list;
+    private static int[][] arrExtend;
+    private static int[] list;
     private static int minPoint;
     private static int minOfMaxPoint;
     private static int sumOfCase;
@@ -25,8 +26,8 @@ public class Solution {
 
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("---time start --- "+ LocalTime.now());
-        Scanner sc =  new Scanner(new FileInputStream("pairs2.txt"));
-//        Scanner sc =  new Scanner(new FileInputStream("pairs.txt"));
+//        Scanner sc =  new Scanner(new FileInputStream("pairs2.txt"));
+        Scanner sc =  new Scanner(new FileInputStream("pairs.txt"));
 //        Scanner sc = new Scanner(System.in);
         TC = sc.nextInt();
 
@@ -39,6 +40,13 @@ public class Solution {
                 for (int k = 0; k < R; k++) {
                     arr[j][k] = sc.nextInt();
 //                    System.out.println(arr[j][k]);
+                }
+
+            }
+            arrExtend = new int[R][R];
+            for (int j = 0; j < R; j++) {
+                for (int k = 0; k < R; k++) {
+                    arrExtend[j][arr[j][k]-1] =k+1;
                 }
 
             }
