@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62679a8-2db5-4f6c-9613-4cf4f2992407" name="Default Changelist" comment="first commit in pair_stackLibrary">
-      <change afterPath="$PROJECT_DIR$/out/production/swtest/META-INF/swtest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pairs/Pairs1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/swtest/pairs/Pair1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/swtest/pairs/Pair2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/swtest/pairs/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/swtest/pairs/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/swtest/sort/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pairs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pairs/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/git.ignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +59,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Pairs1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pairs.Pairs1" />
+      <module name="swtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pairs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="swtest" />
@@ -93,6 +101,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Pairs1" />
         <item itemvalue="Application.Pair1" />
         <item itemvalue="Application.QuickSort" />
       </list>
@@ -136,7 +145,7 @@
       <workItem from="1680869895875" duration="722000" />
       <workItem from="1680919093201" duration="9840000" />
       <workItem from="1680964566077" duration="729000" />
-      <workItem from="1680996823830" duration="14140000" />
+      <workItem from="1680996823830" duration="19699000" />
     </task>
     <task id="LOCAL-00001" summary="commit to merge with pair-branch">
       <created>1681006706705</created>
@@ -152,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681007807073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit in pair_stackLibrary">
+      <created>1681012355888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681012355888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,10 +196,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1679731372221" />
-    <state x="585" y="114" width="957" height="811" key="CommitChangelistDialog2" timestamp="1681012313432">
+    <state x="585" y="114" width="957" height="811" key="CommitChangelistDialog2" timestamp="1681029533600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" width="957" height="811" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681012313432" />
+    <state x="585" y="114" width="957" height="811" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681029533600" />
     <state x="175" y="84" width="1536" height="860" key="DiffContextDialog" timestamp="1681008090307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,45 +208,45 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1680336122901" />
-    <state width="1860" height="370" key="GridCell.Tab.0.bottom" timestamp="1681012116525">
+    <state width="1860" height="93" key="GridCell.Tab.0.bottom" timestamp="1681029467229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="370" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681012116525" />
+    <state width="1860" height="93" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681029467229" />
     <state width="1860" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1681002699484" />
-    <state width="1860" height="370" key="GridCell.Tab.0.center" timestamp="1681012116525">
+    <state width="1860" height="93" key="GridCell.Tab.0.center" timestamp="1681029467229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="370" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681012116525" />
+    <state width="1860" height="93" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681029467229" />
     <state width="1860" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1681002699484" />
-    <state width="1860" height="370" key="GridCell.Tab.0.left" timestamp="1681012116525">
+    <state width="1860" height="93" key="GridCell.Tab.0.left" timestamp="1681029467229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="370" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681012116525" />
+    <state width="1860" height="93" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681029467229" />
     <state width="1860" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1681002699484" />
-    <state width="1860" height="370" key="GridCell.Tab.0.right" timestamp="1681012116525">
+    <state width="1860" height="93" key="GridCell.Tab.0.right" timestamp="1681029467229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="370" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681012116525" />
+    <state width="1860" height="93" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681029467229" />
     <state width="1860" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1681002699484" />
-    <state width="1860" height="345" key="GridCell.Tab.1.bottom" timestamp="1681007297749">
+    <state width="1860" height="345" key="GridCell.Tab.1.bottom" timestamp="1681012364925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681007297749" />
+    <state width="1860" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681012364925" />
     <state width="1860" height="423" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1681002619659" />
-    <state width="1860" height="345" key="GridCell.Tab.1.center" timestamp="1681007297748">
+    <state width="1860" height="345" key="GridCell.Tab.1.center" timestamp="1681012364925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="345" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681007297748" />
+    <state width="1860" height="345" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681012364925" />
     <state width="1860" height="423" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1681002619659" />
-    <state width="1860" height="345" key="GridCell.Tab.1.left" timestamp="1681007297748">
+    <state width="1860" height="345" key="GridCell.Tab.1.left" timestamp="1681012364925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="345" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681007297748" />
+    <state width="1860" height="345" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681012364925" />
     <state width="1860" height="423" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1681002619659" />
-    <state width="1860" height="345" key="GridCell.Tab.1.right" timestamp="1681007297748">
+    <state width="1860" height="345" key="GridCell.Tab.1.right" timestamp="1681012364925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="345" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681007297748" />
+    <state width="1860" height="345" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681012364925" />
     <state width="1860" height="423" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1681002619659" />
     <state x="775" y="454" key="ReplaceDuplicatesPrompt" timestamp="1679751377189">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -259,10 +275,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" width="540" height="496" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1679751357473" />
-    <state x="666" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1681009424344">
+    <state x="666" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1681028392321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681009424344" />
+    <state x="666" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681028392321" />
     <state x="666" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1681001521345" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1679729489357">
       <screen x="0" y="0" width="1920" height="1040" />
