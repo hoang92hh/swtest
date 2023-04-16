@@ -10,13 +10,11 @@ public class Solution {
     private static int TC;
     private static int R, C;
 
-
     private static int[][] pieceArr;
     private static int[][] costArr;
     private static int currentPoint;
     private static int quantity;
     private static int profit;
-
 
     private static int maxDay;
     private static int maxRow = 100;
@@ -27,9 +25,7 @@ public class Solution {
         System.out.println("---time start --- " + LocalTime.now());
         Scanner sc = new Scanner(new FileInputStream("E:\\IT\\swtest\\src\\merchant\\merchant.txt"));
 
-
         TC = sc.nextInt();
-
         for (int tc = 0; tc < TC; tc++) {
             R = sc.nextInt();
             C = sc.nextInt();
@@ -53,13 +49,8 @@ public class Solution {
 
                 }
             }
-
             getMaxSalary(tc);
-
-
         }
-
-
     }
 
     private static void getMaxSalary(int tc) {
@@ -108,7 +99,7 @@ public class Solution {
                 if (quantity > 0) {
                     int cost = costArr[currentPoint / maxRow][currentPoint % maxRow];
                     if (cost >= 0) {
-                        int newProfit = caseProfit+ quantity*cost;
+                        int newProfit = caseProfit + quantity * cost;
                         costArr[currentPoint / maxRow][currentPoint % maxRow] = cost - 1;
                         handleDSF(pieceArr, costArr, currentPoint, numberOfday, 0, newProfit);
                         costArr[currentPoint / maxRow][currentPoint % maxRow] = cost;
@@ -120,7 +111,6 @@ public class Solution {
         }
 
     }
-
 
 
     private static int[] getNextCurrent(int currentPoint) {
