@@ -25,8 +25,9 @@ public class Solution {
 
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("---time start --- " + LocalTime.now());
-        Scanner sc = new Scanner(new FileInputStream("merchant.txt"));
-//        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(new FileInputStream("E:\\IT\\swtest\\src\\merchant\\merchant.txt"));
+
+
         TC = sc.nextInt();
 
         for (int tc = 0; tc < TC; tc++) {

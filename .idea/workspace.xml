@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62679a8-2db5-4f6c-9613-4cf4f2992407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/merchant.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merchant/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pairs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pairs2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pairs/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merchant.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/merchant/merchant.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swtest/merchant/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/swtest/merchant/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/merchant/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/merchant/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IT\swtest\src\merchant" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="Pair1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -145,7 +149,7 @@
       <workItem from="1680996823830" duration="4454000" />
       <workItem from="1681302748778" duration="1524000" />
       <workItem from="1681559469619" duration="11616000" />
-      <workItem from="1681600913198" duration="6235000" />
+      <workItem from="1681600913198" duration="7221000" />
     </task>
     <task id="LOCAL-00001" summary="delete file thua in pairs branch">
       <created>1681032346125</created>
@@ -190,25 +194,25 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1680336122901" />
-    <state width="1860" height="202" key="GridCell.Tab.0.bottom" timestamp="1681624640738">
+    <state width="1860" height="345" key="GridCell.Tab.0.bottom" timestamp="1681625587936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681624640738" />
+    <state width="1860" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681625587936" />
     <state width="1860" height="436" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1681601455775" />
-    <state width="1860" height="202" key="GridCell.Tab.0.center" timestamp="1681624640738">
+    <state width="1860" height="345" key="GridCell.Tab.0.center" timestamp="1681625587936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="202" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681624640738" />
+    <state width="1860" height="345" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681625587936" />
     <state width="1860" height="436" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1681601455775" />
-    <state width="1860" height="202" key="GridCell.Tab.0.left" timestamp="1681624640738">
+    <state width="1860" height="345" key="GridCell.Tab.0.left" timestamp="1681625587936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="202" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681624640738" />
+    <state width="1860" height="345" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681625587936" />
     <state width="1860" height="436" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1681601455775" />
-    <state width="1860" height="202" key="GridCell.Tab.0.right" timestamp="1681624640738">
+    <state width="1860" height="345" key="GridCell.Tab.0.right" timestamp="1681625587936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="202" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681624640738" />
+    <state width="1860" height="345" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1681625587936" />
     <state width="1860" height="436" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1681601455775" />
     <state width="1860" height="202" key="GridCell.Tab.1.bottom" timestamp="1681624640738">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -277,17 +281,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/merchant/Solution.java</url>
-          <line>86</line>
+          <line>87</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/merchant/Solution.java</url>
-          <line>99</line>
+          <line>100</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/merchant/Solution.java</url>
-          <line>111</line>
+          <line>112</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
